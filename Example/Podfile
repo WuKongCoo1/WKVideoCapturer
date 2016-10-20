@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'WKVideoCapturer_Example' do
+  pod 'WKVideoCapturer', :path => '../'
+
+  target 'WKVideoCapturer_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
